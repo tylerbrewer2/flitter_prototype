@@ -1,0 +1,20 @@
+// Mixins
+@each $value in 15, 30, 45, 60 {
+  .with-margin-#{$value} {
+    margin: #{$value}px;
+  }
+
+  .with-padding-#{$value} {
+    padding: #{$value}px;
+  }
+}
+
+@for $i from 1 through 12 {
+  .col-span-#{$i} {
+    @include span-columns($i);
+  }
+
+  .col-offset-#{$i} {
+    @include shift($i);
+  }
+}

@@ -1,0 +1,25 @@
+// Media queries
+$mobile: max-width 600px;
+$tablet: max-width 1000px;
+
+// Global styling
+body {
+  background-color: $light_gray;
+  box-sizing: border-box;
+}
+
+.section {
+  @include outer-container(50%);
+  font-family: "proxima-nova-soft", sans-serif;
+
+  @include media($tablet) {
+    @include outer-container(75%);
+  }
+  @include media($mobile) {
+    @include outer-container(100%);
+  }
+
+  .text-right {
+    text-align: right;
+  }
+}

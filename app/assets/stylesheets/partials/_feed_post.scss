@@ -1,0 +1,36 @@
+.post {
+  background-color: $white;
+
+  h1 {
+    font-size: em(18px);
+  }
+
+  div:first-child {
+    &:after {
+      content: "";
+      float: left;
+      background: $blue_green;
+      width: 100%;
+      height: 1px;
+      border-radius: 3px;
+      margin-top: -5px
+    }
+  }
+
+  .post-row {
+    @include row();
+    overflow: auto;
+  }
+
+  .list {
+    list-style-type: none;
+  }
+
+  .fa-heart {
+    color: $redish;
+  }
+
+  .fa-star {
+    color: $gold;
+  }
+}

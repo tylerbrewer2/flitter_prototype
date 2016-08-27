@@ -1,0 +1,49 @@
+mobile	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/base.scss	/^$mobile: max-width 600px;$/;"	function	line:1
+tablet	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/base.scss	/^$tablet: max-width 1000px;$/;"	function	line:2
+.section	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/base.scss	/^.section {$/;"	function	line:4
+@include media($mobile)	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/base.scss	/^  @include media($mobile) {$/;"	function	line:7
+light_gray	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/modules.scss	/^$light_gray: rgb(254,255,255);$/;"	function	line:1
+SocialFeedController	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/social_feed_controller.rb	/^class SocialFeedController < ApplicationController$/;"	class	line:1
+index	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/social_feed_controller.rb	/^  def index$/;"	method	line:4	class:SocialFeedController
+@each $value in 15, 30, 45, 60	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^@each $value in 15, 30, 45, 60 {$/;"	function	line:1
+.with-margin-#{$value}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^  .with-margin-#{$value} {$/;"	function	line:2
+margin: #	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^    margin: #{$value}px;$/;"	function	line:3
+.with-padding-#{$value}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^  .with-padding-#{$value} {$/;"	function	line:6
+padding: #	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^    padding: #{$value}px;$/;"	function	line:7
+@for $i from 1 through 12	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^@for $i from 1 through 12 {$/;"	function	line:11
+.col-span-#{$i}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^  .col-span-#{$i} {$/;"	function	line:12
+.col-offset-#{$i}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/mixins.scss	/^  .col-offset-#{$i} {$/;"	function	line:16
+MockConcern	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/concerns/mock_concern.rb	/^module MockConcern$/;"	module	line:1
+formatted_mock_users	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/concerns/mock_concern.rb	/^  def formatted_mock_users$/;"	method	line:4	class:MockConcern
+mock_users	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/concerns/mock_concern.rb	/^  def mock_users$/;"	method	line:10	class:MockConcern
+random_day	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/concerns/mock_concern.rb	/^  def random_day$/;"	method	line:32	class:MockConcern
+random_time	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/concerns/mock_concern.rb	/^  def random_time$/;"	method	line:36	class:MockConcern
+random_date	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/controllers/concerns/mock_concern.rb	/^  def random_date$/;"	method	line:40	class:MockConcern
+.post	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^.post {$/;"	function	line:1
+h1	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^  h1 {$/;"	function	line:4
+div:first-child	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^  div:first-child {$/;"	function	line:8
+&:after	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^    &:after {$/;"	function	line:9
+.post-row	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^  .post-row {$/;"	function	line:20
+.list	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^  .list {$/;"	function	line:25
+.fa-heart	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^  .fa-heart {$/;"	function	line:29
+.fa-star	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_feed_post.scss	/^  .fa-star {$/;"	function	line:33
+mobile	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^$mobile: max-width 600px;$/;"	function	line:2
+tablet	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^$tablet: max-width 1000px;$/;"	function	line:3
+body	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^body {$/;"	function	line:6
+.section	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^.section {$/;"	function	line:11
+@include media($tablet)	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^  @include media($tablet) {$/;"	function	line:15
+@include media($mobile)	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^  @include media($mobile) {$/;"	function	line:18
+.text-right	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/partials/_base.scss	/^  .text-right {$/;"	function	line:22
+light_gray	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_colors.scss	/^$light_gray: rgb(246,247,248);$/;"	function	line:2
+white	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_colors.scss	/^$white: rgb(256,256,256);$/;"	function	line:3
+blue_green	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_colors.scss	/^$blue_green: rgb(55,181,175);$/;"	function	line:4
+redish	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_colors.scss	/^$redish: rgb(235,138,139);$/;"	function	line:5
+gold	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_colors.scss	/^$gold: rgb(254,208,68);$/;"	function	line:6
+@each $value in 15, 30, 45, 60	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^@each $value in 15, 30, 45, 60 {$/;"	function	line:2
+.with-margin-#{$value}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^  .with-margin-#{$value} {$/;"	function	line:3
+margin: #	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^    margin: #{$value}px;$/;"	function	line:4
+.with-padding-#{$value}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^  .with-padding-#{$value} {$/;"	function	line:7
+padding: #	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^    padding: #{$value}px;$/;"	function	line:8
+@for $i from 1 through 12	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^@for $i from 1 through 12 {$/;"	function	line:12
+.col-span-#{$i}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^  .col-span-#{$i} {$/;"	function	line:13
+.col-offset-#{$i}	/Users/tylerbrewer/Desktop/DesignLab/Unit 2/social_timeline/social_timeline_mockup/app/assets/stylesheets/modules/_mixins.scss	/^  .col-offset-#{$i} {$/;"	function	line:17
