@@ -85,6 +85,8 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
+    momentjs-rails (2.10.3)
+      railties (>= 3.1)
     multi_json (1.12.1)
     neat (1.7.2)
       bourbon (>= 4.0)
@@ -185,6 +187,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  momentjs-rails
   neat
   pg (~> 0.18)
   pry

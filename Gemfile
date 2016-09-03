@@ -18,11 +18,11 @@ gem 'coffee-rails', '~> 4.2'
 
 # React Javascript Framework
 gem 'react-rails'
-
 # "If you can't make it good, at least make it look good." - Bill Gates (this is ironic ¯\_(ツ)_/¯)
 gem 'bourbon'
 gem 'neat'
-
+# Javascript dates
+gem 'momentjs-rails'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

@@ -1,0 +1,28 @@
+{
+  "name": "social_timeline_mockup",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tylerbrewer2/flitter_prototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tylerbrewer2/flitter_prototype/issues"
+  },
+  "homepage": "https://github.com/tylerbrewer2/flitter_prototype#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.4.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.2.0"
+  }
+}

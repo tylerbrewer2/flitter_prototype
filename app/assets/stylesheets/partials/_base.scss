@@ -6,11 +6,19 @@ $tablet: max-width 1000px;
 body {
   background-color: $light_gray;
   box-sizing: border-box;
+  font-family: "proxima-nova-soft", sans-serif;
+}
+
+div {
+  overflow: auto;
+}
+
+p, button {
+  font-size: 16px;
 }
 
 .section {
   @include outer-container(50%);
-  font-family: "proxima-nova-soft", sans-serif;
 
   @include media($tablet) {
     @include outer-container(75%);

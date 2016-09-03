@@ -8,4 +8,8 @@
 
 // Partials
 @import 'partials/base';
-@import 'partials/feed_post';
+@import 'partials/forms';
+@import 'partials/buttons';
+
+// Component specific
+@import 'components/feed_post';

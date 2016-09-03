@@ -1,25 +1,31 @@
-var FeedWrapper = React.createClass({
+class FeedWrapper extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { posts: this.props.mockPosts };
+    this.addPost = this.addPost.bind(this);
+  }
 
-  getInitialState : function() {
-    return ({
-      posts: this.props.mockPosts
-    });
-  },
+  addPost(post) {
+    this.state.posts.unshift(JSON.stringify(post));
+    this.setState({ posts: this.state.posts });
+  }
 
-  render: function() {
+  render() {
     var counter = 0;
-
     return (
       <div className='section'>
+        <PostForm addPost={this.addPost} />
+
         {this.state.posts.map(function(post) {
-          parsedPost = JSON.parse(post);
           counter++;
-          return <FeedPost key={counter} name={parsedPost.name}
-                                         date={parsedPost.date}
-                                         time={parsedPost.time}
-                                         status={parsedPost.status} />;
+          parsedPost = JSON.parse(post);
+            return <Post key={counter}
+                         name={parsedPost.name}
+                         date={parsedPost.date}
+                         time={parsedPost.time}
+                         status={parsedPost.status} />;
         })}
       </div>
     );
   }
-});
+}

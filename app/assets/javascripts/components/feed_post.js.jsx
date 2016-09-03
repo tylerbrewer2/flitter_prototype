@@ -1,6 +1,6 @@
-var FeedPost = React.createClass({
+class Post extends React.Component {
 
-  render: function() {
+  render() {
     return (
       <div className='post with-padding-15 with-margin-15'>
         <div className='post-row'>
@@ -18,4 +18,4 @@ var FeedPost = React.createClass({
       </div>
     );
   }
-});
+};
