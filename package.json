@@ -24,5 +24,7 @@
     "eslint": "^3.4.0",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-react": "^6.2.0"
+  },
+  "dependencies": {
   }
 }

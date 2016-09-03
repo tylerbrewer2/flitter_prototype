@@ -8,6 +8,16 @@ class FeedWrapper extends React.Component {
   addPost(post) {
     this.state.posts.unshift(JSON.stringify(post));
     this.setState({ posts: this.state.posts });
+    this.saveToServer(post);
+  }
+
+  saveToServer(post){
+      $.ajax({
+        url: '/update_posts',
+        method: 'POST',
+        data: { post: JSON.stringify(post) },
+        dataType: 'json'
+      });
   }
 
   render() {
